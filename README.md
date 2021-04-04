@@ -10,6 +10,9 @@ Builds the app at `build`, cleaning the folder first.
 
 Starts the app in production by first building the project with `npm run build`, and then executing the compiled JavaScript at `build/index.js`.
 
+#### `npm run test`
+
+Run unit test
 
 ## forked from this repository as a start point
 https://github.com/stemmlerjs/simple-typescript-starter
