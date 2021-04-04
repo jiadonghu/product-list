@@ -19,11 +19,6 @@
     "test": "jest",
     "test:dev": "jest --watchAll"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run test && npm run prettier-format && npm run lint"
-    }
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -47,6 +42,7 @@
   "dependencies": {
     "eslint-plugin-jest": "^24.1.0",
     "jest": "^26.5.3",
+    "node-fetch": "^2.6.1",
     "ts-jest": "^26.4.1"
   }
 }
